@@ -279,4 +279,291 @@ justify-content: space-evenly;
 }
 
 
+
+
+
+@media screen and (max-width: 600px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .logo .white {
+    color:white;
+  }
+  
+  .logo .yellow {
+    color:yellow;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .sign-up a {
+    background-color:yellow;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  #h1 {
+    font-size: 48px;
+    color: #333;
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+  
+  #h3 {
+    font-size: 24px;
+    color: #666;
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+  
+  #button {
+    background-color:yellow;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+
+  #button1{
+    background-color:grey;
+    color: #fff;
+    border: none;
+    border-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+  
+  #img {
+    width: 300px;
+    height: 250px;
+    margin-top: -15%;
+    margin-left: 70%;
+  }
+
+  .content{
+    background-color: #b197fc;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #category{
+    margin-bottom: 20%;
+    margin-top: 1%;
+    color: #212529;
+    margin-left: 80px;
+    font-size: x-large;
+    
+  }
+
+  #search{
+    margin-left: 40%;
+    margin-top: -21%;
+    font-size: x-large;
+    color: #e5dbff;
+  }
+
+#pictures{
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#b2{
+  background-color: #fcc419;
+  color: #666;
+  font-size: 20px;
+  margin-left: 35%;
+ 
+}
+
+#h{
+  color: #333;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+#p2{
+  font-size: 18px;
+  margin-left: 60%;
+  margin-top: -3%;
+}
+
+#man{
+  margin-left: 70%;
+  margin-top: -2%;
+}
+
+#test{
+  margin-left: 20%;
+  font-size: 60px;
+  color: #666;
+}
+
+#parah{
+  margin-left: 10%;
+}
+
+#parag{
+  font-size: 33px;
+  margin-top: -17%;
+  margin-left: 10%;
+}
+
+#cameron{
+  margin-left: 10%;
+}
+
+#project{
+  margin-left: 10%;
+  color: #666;
+}
+
+#off{
+  color: #fcc419;
+}
+
+.next{
+  font-size: 60px;
+  margin-left: 10%;
+}
+
+#design{
+  margin-left: 10%;
+  font-size: x-large;
+  color: #343a40;
+}
+
+.design{
+  background-color: #d0bfff;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 350px;
+}
+
+#game{
+  margin-left: 60%;
+  margin-top: -20%;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ padding: 20px;
+  background-color:#212529;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #f2f2f2;
+}
+
+.footer h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#g {
+  color:  #fcc419;
+}
+
+.footer h3 {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+#p {
+  font-weight: bold;
+}
+
+.footer div {
+  flex-basis: 20%;
+  margin-right: 20px;
+}
+
+.footer div:last-child {
+  margin-right: 0;
+}
+#contents{
+  display:flex;
+  flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.pe{border: solid rgb(197, 209, 197);border-radius: 5px;margin-bottom: 2%;text-align: center;}
+
+
+.product-card {
+  display: flex;
+  flex-direction: column;  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: calc(25% - 40px);
+  height: 400px;
+  overflow: hidden;
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+  }
+
+
 /* <img src="${product.thumbnail}" alt="${product.name}" /> */
